@@ -2,8 +2,7 @@ import { Menu } from "@mui/icons-material";
 import Link from "next/link";
 import Logo from "./fullLogo";
 
-
-export const navs = ["Home", "About", "Works", "Contact"];
+export const navs = ["Home", "About", "Contact"];
 const Navigation = () => {
   return (
     <div className="w-full flex items-center xl:pt-14 pt-5 justify-between">

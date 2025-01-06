@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="bg-[rgb(23,26,35)] text-sm overflow-hidden text-gray-500 px-20 md:flex-row items-center md:gap-0 gap-6 flex-col flex justify-between w-full py-12 ">
       <div className="upppercase font-bold">
-        COPYRIGHT &copy; 2022 ALL RIGHTS RESERVED
+        COPYRIGHT &copy; 2025 ALL RIGHTS RESERVED
       </div>
       <div className="flex gap-8">
         {navs.map((nav, index) => (
@@ -21,7 +21,6 @@ const Footer = () => {
             className={`uppercase font-bold cursor-pointer`}
           >
             <span> {nav}</span>
-           
           </Link>
         ))}
       </div>

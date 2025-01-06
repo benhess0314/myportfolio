@@ -7,7 +7,14 @@ import { GiPersonInBed } from "react-icons/gi";
 import { BsImage, BsSnow3 } from "react-icons/bs";
 
 const About = () => {
-  const skills = ["Javascript/Typescript", "React/Next.js", "Vue/Nuxt.js", "TailwindCSS", "MUI", "Laravel"];
+  const skills = [
+    "Javascript/Typescript",
+    "React/Next.js",
+    "Vue/Nuxt.js",
+    "TailwindCSS",
+    "MUI",
+    "Laravel",
+  ];
   return (
     <div
       id="about"
@@ -78,9 +85,9 @@ const About = () => {
         </div>
         <div className="text-gray-300 flex flex-col gap-4 text-xl leading-8">
           <p className="md:text-left text-center">
-            I'm a Senior Front-End Developer. I have a serious
-            passion for UI effects, animations and creating intuitive, dynamic
-            user experiences.
+            I'm a Senior Front-End Developer. I have a serious passion for UI
+            effects, animations and creating intuitive, dynamic user
+            experiences.
           </p>
           <p className="md:text-left text-center">
             My main experience is in front-end development but I also have a
@@ -93,20 +100,7 @@ const About = () => {
             I've built products for companies and businesses around the globe
             ranging from marketing websites to complex solutions and enterprise
             apps with focus on fast, elegant and accessible user experiences.
-          
           </p>
-          {/* <p className="sm:text-left   text-center">
-            I'm a{" "}
-            <a href="" className="underline text-[rgb(53,91,254)]">
-              CodePen
-            </a>{" "}
-            advocate and share attention-catching demos over on
-            <a href="" className="underline text-[rgb(53,91,254)]">
-              {" "}
-              Twitter
-            </a>
-            .
-          </p> */}
           <div className="flex gap-5 mt-4 flex-col">
             <div className="font-bold text-2xl text-white">Best Skills</div>
             <div className="flex items-center gap-4">

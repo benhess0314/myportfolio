@@ -1,5 +1,5 @@
 import { GitHub, Telegram } from "@mui/icons-material";
-import SendIcon from '@mui/icons-material/Send';
+import SendIcon from "@mui/icons-material/Send";
 import {
   alpha,
   Button,
@@ -48,7 +48,7 @@ const RedditTextField = styled((props: TextFieldProps) => (
   },
 }));
 const Contact = () => {
-  const [copied, copy, setCopied] = useCopy("hereis.topdev@gmail.com");
+  const [copied, copy, setCopied] = useCopy("ben.dev0314@gmail.com");
   const copyText = () => {
     copy();
     setTimeout(() => {
@@ -64,7 +64,7 @@ const Contact = () => {
     },
     {
       provider: "Telegram",
-      link: "https://t.me/software730",
+      link: "https://t.me/BenHess0314",
     },
     {
       provider: "Skype",
@@ -268,7 +268,7 @@ const Contact = () => {
                 <img src={Copy.src} className="w-7" />
               </div>
               <div className="text-center w-full font-bold text-lg">
-                {copied ? "copied" : "hereis.topdev@gmail.com"}
+                {copied ? "copied" : "ben.dev0314@gmail.com"}
               </div>
             </div>
           </div>
