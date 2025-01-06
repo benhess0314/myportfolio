@@ -11,8 +11,8 @@ import {
 import Behance from "@/assets/behance.svg";
 import Discord from "@/assets/discord.png";
 import ContactPattern from "@/assets/contact_pattern.webp";
-import useCopy from "use-copy";
-import Copy from "@/assets/copy.svg";
+// import useCopy from "use-copy";
+// import Copy from "@/assets/copy.svg";
 import Link from "next/link";
 import { useState } from "react";
 import axios from "axios";
@@ -48,13 +48,13 @@ const RedditTextField = styled((props: TextFieldProps) => (
   },
 }));
 const Contact = () => {
-  const [copied, copy, setCopied] = useCopy("ben.dev0314@gmail.com");
-  const copyText = () => {
-    copy();
-    setTimeout(() => {
-      setCopied(false);
-    }, 1000);
-  };
+  // const [copied, copy, setCopied] = useCopy("ben.dev0314@gmail.com");
+  // const copyText = () => {
+  //   copy();
+  //   setTimeout(() => {
+  //     setCopied(false);
+  //   }, 1000);
+  // };
   const [values, setValues] = useState({ name: "", email: "", message: "" });
 
   const contacts = [
@@ -252,7 +252,7 @@ const Contact = () => {
                 </a>
               ))}
             </div>
-            <div
+            {/* <div
               onClick={copyText}
               className={`w-full flex items-center rounded-tl-[20px] hover:bg-[rgb(54,91,254)] hover:text-white group rounded-br-[20px] h-[3.5rem] mt-4  cursor-pointer ${
                 copied
@@ -269,8 +269,8 @@ const Contact = () => {
               </div>
               <div className="text-center w-full font-bold text-lg">
                 {copied ? "copied" : "ben.dev0314@gmail.com"}
-              </div>
-            </div>
+              </div> 
+            </div>*/}
           </div>
         </div>
       </div>
