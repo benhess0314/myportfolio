@@ -68,11 +68,11 @@ const Contact = () => {
     },
     {
       provider: "Skype",
-      link: "live:.cid.a915b6f66b36fe9",
+      link: "live:.cid.d4ea0bf4cccb438c",
     },
     {
       provider: "Discord",
-      link: "bryanjin#8288",
+      link: "_hereistopdev",
     },
   ];
   const validate = (values: any): { name: string; error: string }[] => {
